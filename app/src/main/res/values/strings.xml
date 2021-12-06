@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SwapMe0_4</string>
+    <string name="swap_me">Swap me</string>
+    <string name="some_id">Привет</string>
+    <string name="some_id1">Ты любиш читать? Тогда ты по адресу, у нас ты сможешь найти множество любимых кних, продать свои не нужные или просто обменятся с кем то на новую!</string>
+    <string name="back">Назад</string>
+    <string name="next">Далее</string>
+    <string name="some_id2">Обменивайся просто</string>
+    <string name="some_id3">В приложении ты сможешь легко найти людей неподалеку с помощью карты и обмениватся с ними книгами или же подавать или покупать книги в любой точке страны с помощью Новой Почты</string>
+    <string name="some_id4_1">Коментируй и общайся</string>
+    <string name="some_id4_2">У нас ты можешь оставлять коментарии под прочитаными книгами, писать отзывы или общатся с новыми знакомыми прямо в приложении</string>
+    <string name="entrance">Вход</string>
+    <string name="hint_mail">abc@email.com</string>
+    <string name="hint_password">Ваш пароль</string>
+    <string name="remember_me">Запомнить меня</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="to_come_in">Войти</string>
+    <string name="Else">Или</string>
+    <string name="to_come_in_Google">Войти с Google</string>
+    <string name="to_come_in_Facebook">Войти с Facebook</string>
+    <string name="not_ready">Нет аккаунта?</string>
+    <string name="registration">Регистрация</string>
+    <string name="to_come_in1">Вход</string>
+    <string name="second_name_hint">Ваша фамилия</string>
+    <string name="first_name_hint">Ваше имя</string>
+    <string name="phone_hint">Номер телефона</string>
+    <string name="registration_button">Регистрация</string>
+    <string name="have_account">Уже есть аккаунт?</string>
+    <string name="skip_pesent">Пропустить</string>
+    <string name="genre_selection">Какие жанры Вам нравятся?</string>
+    <string name="genre_selection_1">Выберите 3–5 любимых жанра:</string>
+    <string name="business_books">Бизнес-книги</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+
+
+
+
+</resources>

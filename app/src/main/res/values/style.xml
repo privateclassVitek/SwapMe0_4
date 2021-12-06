@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="swap_me">
+        <item name="android:textSize">72sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="some_id">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="some_id1">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">#C3C3C3</item>
+        <item name="colorControlActivated">@color/red</item>
+    </style>
+
+
+</resources>
