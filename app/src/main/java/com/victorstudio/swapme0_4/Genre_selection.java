@@ -173,6 +173,7 @@ public class Genre_selection extends AppCompatActivity implements View.OnClickLi
                     if (v.getId() == R.id.imageView_back_login) {
                         intent = new Intent(this, activity_login.class);
                         startActivity(intent);
+                        finish();
 
                     }
             }

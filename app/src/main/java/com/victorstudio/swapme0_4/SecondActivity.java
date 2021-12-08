@@ -31,6 +31,7 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
             intent = new Intent(this, thirdActivity.class);
         }
         startActivity(intent);
+        onStop();
 
 
     }

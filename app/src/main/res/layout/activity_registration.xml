@@ -14,11 +14,13 @@
         android:layout_gravity="center_vertical"
         android:layout_marginTop="20dp"
         android:background="@drawable/rounded_edittext"
+        android:textColorHint="@color/black"
         android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:textColor="@color/black"
         android:hint="@string/first_name_hint"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.387"
+        app:layout_constraintHorizontal_bias="0.381"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/registration_second_name" />
 
@@ -28,13 +30,15 @@
         android:layout_height="39dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/ic_baseline_arrow_back_ios_24"
+        android:onClick="onClickBack"
+
         app:layout_constraintBottom_toTopOf="@+id/textView11"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.122"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/textView10"
@@ -70,6 +74,8 @@
         android:layout_gravity="center_vertical"
         android:layout_marginTop="12dp"
         android:background="@drawable/rounded_edittext"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
         android:hint="@string/second_name_hint"
         android:textSize="18sp"
         app:drawableLeftCompat="@drawable/ic_baseline_person_24"
@@ -85,8 +91,10 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/rounded_edittext"
         android:drawableStart="@drawable/ic_baseline_phone_24"
+        android:textColorHint="@color/black"
         android:ems="10"
         android:gravity="center_vertical"
+        android:textColor="@color/black"
         android:hint="@string/phone_hint"
         android:inputType="phone"
         app:layout_constraintEnd_toEndOf="parent"
@@ -98,9 +106,11 @@
         android:id="@+id/registration_Email"
         android:layout_width="296dp"
         android:layout_height="48dp"
+        android:textColorHint="@color/black"
         android:layout_marginTop="20dp"
         android:background="@drawable/rounded_edittext"
         android:drawableStart="@drawable/ic_twotone_email_24"
+        android:textColor="@color/black"
         android:ems="10"
         android:hint="@string/hint_mail"
         android:inputType="textEmailAddress"
@@ -111,14 +121,16 @@
 
 
     <EditText
-        android:id="@+id/to_come_in_password"
+        android:id="@+id/registration_password"
         android:layout_width="296dp"
         android:layout_height="48dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/rounded_edittext"
         android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:textColorHint="@color/black"
         android:ems="10"
         android:hint="@string/hint_password"
+        android:textColor="@color/black"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="@+id/registration_Email"
         app:layout_constraintHorizontal_bias="0.0"
@@ -132,10 +144,12 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/rounded_button_to_come_in"
         android:drawableRight="@drawable/ic_baseline_arrow_circle_right_24"
+        android:onClick="onClickSingUp"
         android:text="@string/registration_button"
-        app:layout_constraintEnd_toEndOf="@+id/to_come_in_password"
-        app:layout_constraintStart_toStartOf="@+id/to_come_in_password"
-        app:layout_constraintTop_toBottomOf="@+id/to_come_in_password" />
+        app:layout_constraintEnd_toEndOf="@+id/registration_password"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/registration_password"
+        app:layout_constraintTop_toBottomOf="@+id/registration_password" />
 
     <TextView
         android:id="@+id/textView15"
@@ -192,6 +206,7 @@
             android:layout_height="20dp"
             android:layout_marginStart="20dp"
             android:layout_marginBottom="45dp"
+            android:textColor="@color/black"
             android:layout_weight="1"
             android:gravity="center"
             android:text="@string/have_account" />
